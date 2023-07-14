@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fitness Tracker</h1>
+  </header>
+
+  <div class="container">
+    <section id="workout-section">
+      <h2>Workout Log</h2>
+      <form id="workout-form">
+        <input type="text" id="exercise-input" placeholder="Exercise">
+        <input type="number" id="duration-input" placeholder="Duration (minutes)">
+        <button type="submit" id="log-button">Log Workout</button>
+      </form>
+    </section>
+
+    <section id="goal-section">
+      <h2>Set Your Goals</h2>
+      <input type="number" id="goal-input" placeholder="Daily Exercise Goal (minutes)">
+      <button id="save-goal-button">Save Goal</button>
+    </section>
+
+    <section id="progress-section">
+      <h2>Progress</h2>
+      <div id="progress-chart"></div>
+    </section>
+
+    <section id="meal-section">
+      <h2>Meal Planner</h2>
+      <textarea id="meal-input" placeholder="Enter your meals for the day"></textarea>
+      <button id="save-meal-button">Save Meals</button>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
